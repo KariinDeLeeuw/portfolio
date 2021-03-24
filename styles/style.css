@@ -1,0 +1,21 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 50px auto;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-attachment: fixed;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
