@@ -19,6 +19,8 @@ body {
 
 h3 {
   font-family: var(--basic-font-family);
+  color: var(--heading-text-color);
+  font-weight: 500;
   font-size: 36px;
 }
 
@@ -30,8 +32,8 @@ h1 {
 }
 
 h2 {
-  font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-family: var(--basic-font-family);
+  font-weight: 200;
   font-size: 24px;
 }
 
@@ -39,4 +41,5 @@ h2 {
   color: #484848;
   font-size: 20px;
   font-family: var(--basic-font-family);
+  font-weight: 500;
 }
