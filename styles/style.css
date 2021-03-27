@@ -1,3 +1,9 @@
+:root {
+  --heading-font-family: "Titillium Web", sans-serif;
+  --basic-font-family: "Montserrat", sans-serif;
+  --heading-text-color: #484848;
+}
+
 body,
 html {
   height: 100%;
@@ -12,19 +18,25 @@ body {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--basic-font-family);
   font-size: 36px;
 }
 
 h1 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 900;
   font-size: 96px;
-  color: #484848;
+  color: var(--heading-text-color);
 }
 
 h2 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 24px;
+}
+
+.btn-outline-secondary {
+  color: #484848;
+  font-size: 20px;
+  font-family: var(--basic-font-family);
 }
