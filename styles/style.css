@@ -63,6 +63,13 @@ img {
   margin: 0 auto;
 }
 
+.intro p {
+  text-align: center;
+  font-family: var(--basic-font-family);
+  font-weight: 200;
+  font-size: 20px;
+}
+
 .projectPictures {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
