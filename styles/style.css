@@ -13,7 +13,7 @@ html {
 
 body {
   text-align: center;
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   background-attachment: fixed;
 }
 
