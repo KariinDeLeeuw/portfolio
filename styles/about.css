@@ -5,8 +5,12 @@
 }
 
 .main-text {
-  padding: 160px 100px;
-  background-color: #f3fefe;
+  padding: 60px 100px;
+  margin: 45px 50px;
+  /* background-color: #f3fefe; */
+  background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
