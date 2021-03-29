@@ -16,7 +16,14 @@ body {
 }
 
 .headOne {
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  /* background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  ); */
+  /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
   background-attachment: fixed;
   padding: 30px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -55,11 +62,11 @@ p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 200;
-  text-align: justify;
+  text-align: center;
 }
 
 img {
-  width: 350px;
+  width: 460px;
   margin: 0 auto;
 }
 
@@ -82,5 +89,9 @@ img {
 }
 
 .description {
-  padding: 80px 40px;
+  margin-top: 48px;
+  padding: 40px 25px;
+  background-color: #f3fefe;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
