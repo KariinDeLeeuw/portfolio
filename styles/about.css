@@ -3,3 +3,41 @@
   --basic-font-family: "Montserrat", sans-serif;
   --heading-text-color: #484848;
 }
+
+.main-text {
+  padding: 160px 100px;
+  background-color: #f3fefe;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 900;
+  font-size: 64px;
+  color: var(--heading-text-color);
+}
+
+h2 {
+  font-family: var(--basic-font-family);
+  font-weight: 200;
+  font-size: 24px;
+}
+
+p {
+  font-family: var(--basic-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.btn-outline-secondary {
+  margin-left: 150px;
+}
+
+img {
+  width: 450px;
+  border-radius: 5%;
+}
+
+.headOne {
+  margin: 10px 30px;
+}
