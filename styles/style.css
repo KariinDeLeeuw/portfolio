@@ -70,6 +70,16 @@ img {
   margin: 0 auto;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttonsContact {
+  margin: 10px;
+}
+
 .intro p {
   text-align: center;
   font-family: var(--basic-font-family);
