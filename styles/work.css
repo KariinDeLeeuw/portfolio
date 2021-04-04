@@ -1,0 +1,25 @@
+:root {
+  --heading-font-family: "Titillium Web", sans-serif;
+  --basic-font-family: "Montserrat", sans-serif;
+  --heading-text-color: #484848;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  color: var(--heading-text-color);
+  font-size: 40px;
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  color: var(--heading-text-color);
+  font-weight: 900;
+  font-size: 32px;
+}
+
+p {
+  font-family: var(--basic-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 200;
+}
