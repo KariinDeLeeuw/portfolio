@@ -4,17 +4,28 @@
   --heading-text-color: #484848;
 }
 
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 25px auto;
+}
+
 h1 {
   font-family: var(--heading-font-family);
   color: var(--heading-text-color);
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 h3 {
   font-family: var(--heading-font-family);
   color: var(--heading-text-color);
   font-weight: 900;
-  font-size: 32px;
+  font-size: 37px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 p {
