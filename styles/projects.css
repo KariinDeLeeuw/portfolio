@@ -55,3 +55,24 @@ p {
   color: var(--heading-text-color);
   cursor: pointer;
 }
+
+@media (min-width: 769px) {
+  .page {
+    margin: 50px 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  .page {
+    margin: 50px 100px;
+  }
+
+  h1 {
+    font-size: 52px;
+    margin-bottom: 50px;
+  }
+
+  .projectLink {
+    font-size: 48px;
+  }
+}
