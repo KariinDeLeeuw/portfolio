@@ -27,6 +27,17 @@ p {
   color: black;
 }
 
+.fa-external-link-alt {
+  font-size: 30px;
+  color: var(--heading-text-color);
+  opacity: 0.2;
+}
+
+.fa-external-link-alt:hover {
+  opacity: 1;
+  color: var(--heading-text-color);
+}
+
 .projectLink {
   font-family: var(--heading-font-family);
   color: var(--heading-text-color);
