@@ -1,7 +1,7 @@
 :root {
-  --heading-font-family: "Titillium Web", sans-serif;
-  --basic-font-family: "Montserrat", sans-serif;
-  --heading-text-color: #484848;
+  --heading-font-family: "Montserrat", sans-serif;
+  --basic-font-family: "Space Mono", monospace;
+  --heading-text-color: #007580;
 }
 
 body,
