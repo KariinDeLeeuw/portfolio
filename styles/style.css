@@ -21,7 +21,6 @@ html {
 
 .headOne p {
   font-family: var(--basic-font-family);
-  color: var(--heading-text-color);
   font-weight: 500;
   font-size: 36px;
   text-align: center;
@@ -30,8 +29,7 @@ html {
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 900;
-  font-size: 96px;
-  color: var(--heading-text-color);
+  font-size: 92px;
 }
 
 h2 {
@@ -86,6 +84,7 @@ img {
   font-size: 20px;
   font-family: var(--basic-font-family);
   font-weight: 500;
+  border: 2px solid var(--heading-text-color);
 }
 
 .description {

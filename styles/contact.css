@@ -7,10 +7,25 @@
 body {
   text-align: center;
   margin: 150px auto;
+  background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  background-attachment: fixed;
 }
 
 h1 {
-  font-family: var(--heading-font-family);
-  color: var(--heading-text-color);
+  font-family: var(--basic-font-family);
+  color: black;
   font-size: 80px;
+  margin-bottom: 60px;
+}
+
+.font {
+  font-size: 40px;
+  color: var(--heading-text-color);
+  opacity: 0.4;
+  margin: 20px 20px;
+}
+
+.font:hover {
+  opacity: 1;
+  color: var(--heading-text-color);
 }
