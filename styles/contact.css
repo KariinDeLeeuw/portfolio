@@ -1,0 +1,16 @@
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --basic-font-family: "Space Mono", monospace;
+  --heading-text-color: #007580;
+}
+
+body {
+  text-align: center;
+  margin: 150px auto;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  color: var(--heading-text-color);
+  font-size: 80px;
+}
