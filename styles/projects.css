@@ -13,6 +13,44 @@ html {
   background-attachment: fixed;
 }
 
+.navigatie {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  font-size: 40px;
+  margin: 0px 0px 0px 10px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 5px;
+  font-family: var(--basic-font-family);
+}
+
+nav a {
+  text-decoration: none;
+  color: #6c757d;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--heading-text-color);
+}
+
 h1 {
   font-family: var(--basic-font-family);
   font-size: 40px;
@@ -58,6 +96,21 @@ p {
   opacity: 1;
   color: var(--heading-text-color);
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    font-size: 50px;
+    margin: 0px 50px;
+  }
+
+  nav ul {
+    margin: 0px 50px;
+  }
+
+  nav li {
+    margin-left: 15px;
+  }
 }
 
 @media (min-width: 769px) {
