@@ -4,11 +4,23 @@
   --heading-text-color: #007580;
 }
 
-body,
-html {
-  height: 100%;
-  width: 100%;
-  margin: 25px auto;
+.logo {
+  font-size: 50px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
 }
 
 .headOne {
