@@ -71,6 +71,21 @@ p {
   }
 }
 
+@media (min-width: 600px) {
+  .logo {
+    font-size: 50px;
+    margin: 0px 50px;
+  }
+
+  nav ul {
+    margin: 0px 50px;
+  }
+
+  nav li {
+    margin-left: 15px;
+  }
+}
+
 @media (min-width: 769px) {
   h1 {
     font-size: 54px;
