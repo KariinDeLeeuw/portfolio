@@ -75,6 +75,13 @@ h3 {
   font-size: 40px;
 }
 
+h4 {
+  font-size: 22px;
+  font-family: var(--basic-font-family);
+  font-weight: 200;
+  margin: 0;
+}
+
 p {
   font-family: var(--basic-font-family);
   font-size: 16px;
@@ -125,6 +132,25 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+footer {
+  margin: 60px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer .contact-box {
+  background-color: #f3fefe;
+  padding: 30px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+footer .btn-outline-secondary {
+  font-size: 16px;
+}
+
 @media (min-width: 600px) {
   .logo {
     font-size: 50px;
@@ -137,5 +163,40 @@ img {
 
   nav li {
     margin-left: 15px;
+  }
+  h4 {
+    font-size: 36px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  footer .contact-box {
+    padding: 30px 50px;
+  }
+  footer .btn-outline-secondary {
+    font-size: 26px;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1000px) {
+  h4 {
+    font-size: 44px;
+  }
+  footer p {
+    font-size: 18px;
+  }
+  footer .contact-box {
+    padding: 30px 200px;
+  }
+  footer .btn-outline-secondary {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1250px) {
+  footer .contact-box {
+    padding: 30px 300px;
   }
 }
