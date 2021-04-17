@@ -59,7 +59,7 @@ nav li.active a {
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 900;
-  font-size: 92px;
+  font-size: 88px;
 }
 
 h2 {
@@ -72,7 +72,7 @@ h3 {
   font-family: var(--heading-font-family);
   color: var(--heading-text-color);
   font-weight: 900;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 h4 {
