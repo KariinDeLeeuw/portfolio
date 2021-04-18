@@ -163,10 +163,10 @@ footer .btn-outline-secondary {
 
 @media (min-width: 769px) {
   h1 {
-    font-size: 54px;
+    font-size: 50px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
   .photoKarin img {
     width: 450px;
@@ -176,12 +176,6 @@ footer .btn-outline-secondary {
 @media (min-width: 992px) {
   body {
     background-color: white;
-  }
-  h1 {
-    font-size: 54px;
-  }
-  h2 {
-    font-size: 28px;
   }
   .photoKarin img {
     margin-top: 30px;
