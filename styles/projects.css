@@ -55,7 +55,7 @@ h1 {
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 18px;
   font-family: var(--basic-font-family);
   font-weight: 200;
   margin: 0;
@@ -104,17 +104,23 @@ p {
 
 footer {
   margin: 60px 0 0;
+  padding-bottom: 5px;
+  background-color: #f3fefe;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer .contact-box {
-  background-color: #f3fefe;
-  padding: 30px;
+  padding: 30px 30px 5px 30px;
 }
 
 footer p {
   font-size: 14px;
   margin: 0;
+}
+
+footer .footer-text {
+  font-size: 12px;
+  line-height: 1;
 }
 
 footer .btn-outline-secondary {
@@ -140,13 +146,13 @@ footer .btn-outline-secondary {
   }
 
   h4 {
-    font-size: 36px;
+    font-size: 30px;
   }
   footer p {
     font-size: 16px;
   }
   footer .contact-box {
-    padding: 30px 50px;
+    padding: 30px 50px 10px 50px;
   }
   footer .btn-outline-secondary {
     font-size: 26px;
@@ -177,13 +183,13 @@ footer .btn-outline-secondary {
 
 @media (min-width: 1000px) {
   h4 {
-    font-size: 44px;
+    font-size: 36px;
   }
   footer p {
     font-size: 18px;
   }
   footer .contact-box {
-    padding: 30px 200px;
+    padding: 30px 200px 10px 200px;
   }
   footer .btn-outline-secondary {
     font-size: 24px;
@@ -193,6 +199,6 @@ footer .btn-outline-secondary {
 
 @media (min-width: 1250px) {
   footer .contact-box {
-    padding: 30px 300px;
+    padding: 30px 300px 10px 300px;
   }
 }

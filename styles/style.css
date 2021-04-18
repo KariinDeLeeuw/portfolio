@@ -76,7 +76,7 @@ h3 {
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 18px;
   font-family: var(--basic-font-family);
   font-weight: 200;
   margin: 0;
@@ -171,7 +171,7 @@ footer .btn-outline-secondary {
     margin-left: 15px;
   }
   h4 {
-    font-size: 36px;
+    font-size: 30px;
   }
   footer p {
     font-size: 16px;
@@ -187,7 +187,7 @@ footer .btn-outline-secondary {
 
 @media (min-width: 1000px) {
   h4 {
-    font-size: 44px;
+    font-size: 36px;
   }
   footer p {
     font-size: 18px;
